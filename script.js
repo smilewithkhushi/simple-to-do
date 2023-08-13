@@ -32,6 +32,7 @@ const taskList = document.getElementById('taskList');
 
         if (checkbox.checked){
             taskItem.style.textDecoration = 'line-through';
+            textItem.style.color = 'red';
         }
         else{
             taskItem.style.textDecoration = 'none';
